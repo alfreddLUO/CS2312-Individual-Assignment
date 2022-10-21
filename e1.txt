@@ -1,0 +1,78 @@
+startNewDay 03-Jan-2021
+
+register 001 helena 
+register 002 jason
+register 003 kit
+register 004 karen
+
+arrive I1 3D_Scanner
+arrive I2 Smart_Glasses
+arrive I3 Robot_Astro        
+
+request 002 I2
+
+checkout 001 I1
+checkout 001 I2
+checkout 001 I3
+
+request 002 I1
+request 002 I2
+request 002 I2
+request 003 I2
+
+listItems
+listMembers
+
+checkout 002 I2
+checkin 001 I2
+request 001 I2
+request 002 I2
+request 003 I2
+
+listItems
+listMembers
+
+checkout 003 I2
+checkout 001 I2
+checkout 002 I2
+
+listItems
+listMembers
+
+undo
+listItems
+listMembers
+
+redo
+listItems
+listMembers
+
+checkin 002 I2
+
+checkout 003 I2
+
+listItems
+listMembers
+
+undo
+listItems
+listMembers
+
+request 002 I3
+
+arrive I4 Laser_Keyboard
+arrive I5 Dome_Camera    
+
+checkover
+checkout 
+checkout 001
+checkout 001 I4
+checkout 001 I5
+
+request
+request 002
+request 002 I4
+request 002 I5
+
+listItems
+listMembers
